@@ -1,0 +1,60 @@
+
+
+                        React js -Js library for front end development
+
+            -create project - npx create-react-app  project-name
+            -Features of react js
+                -virtual d0m
+                -component base approch
+                -JSX (JavaScript XML)
+                -Faster, scalable ,flexible
+
+
+            -       Angular    vs  React   vs     Vue
+
+            1. framework         . library       . framework
+            2. 2016              . 2013          . 2014
+            3. typeScript        . js            . typeScript
+            4. Real DOM          . Virtual DOM   . Virtual DOM
+            5. Bi Directional    . UniDirectional. Bi Directional 
+                Binding.            Binding.        Binding.
+
+
+            -Event Handlers
+            -create component - Create js file where its name should starts with
+            capital latters
+                    -Two types 
+                        1.Class based components -satefull componets
+
+                        2.function based components - state less component,
+                            use of useState hook 
+                    -state : piece of data that can share between components
+                    -props -used to access values from parent n child
+                    -To display an array of object in html use map method
+                    -basic hooks in react
+                        -useState hook
+                        -useEffect Hook
+                        -useParam Hook
+                        -useDispatch Hook
+                        -useSelector Hook
+
+                    -React Routing
+                        -install react-router-dom
+                            - Route for set up path Component ,
+                            - Routes for holding all route tag 
+                            - BrowserRoute for holding routes
+                
+                -Link tag used to redirect one view to another
+                -Axios -used to call http request in react
+                -REDUX -state management system
+                    -avoid props drilling
+                    -working
+                        -install redux,react-redu,redux-thunk
+                        -create store.js file in src folder
+                        -provide store to the root component
+                        -create an action file for defining the logic to update the state
+                        -using component,we have to dispatch the action
+                        -create  reducer file to hold updated state,where will get payload from action file
+                        -reducer should update in the store file
+                        -to fetch updated state from store to component it should use useSelector hook
+
